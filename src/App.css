@@ -1,8 +1,8 @@
-body{
-  background-color: #FAFAFA;
+body {
+  background-color: #fafafa;
 }
 
-.navBar{
+.navBar {
   display: flex;
   width: 85%;
   margin: auto;
@@ -10,7 +10,7 @@ body{
   align-items: center;
 }
 
-.navList{
+.navList {
   display: flex;
   gap: 20px;
   align-items: center;
@@ -23,6 +23,11 @@ body{
   width: 85%;
   padding: 20px;
   border-radius: 5px;
+  margin: auto;
+}
+
+.booksForm {
+  width: 85%;
   margin: auto;
 }
 
@@ -61,4 +66,13 @@ body{
   border: none;
   background-color: white;
   cursor: pointer;
+}
+
+.booksForm {
+  margin-top: 25px;
+}
+
+.category {
+  display: flex;
+  justify-content: center;
 }
