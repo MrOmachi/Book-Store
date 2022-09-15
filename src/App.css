@@ -4,9 +4,16 @@ body{
 
 .navBar{
   display: flex;
-  width: 70%;
+  width: 85%;
   margin: auto;
   justify-content: space-between;
+  align-items: center;
+}
+
+.navList{
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .BooksDisplay {

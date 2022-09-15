@@ -3,7 +3,7 @@ import React from "react";
 function NavBar() {
   return (
     <div className="navBar">
-      <div>
+      <div className="navList">
         <h1>Bookstore CMS</h1>
         <p>BOOKS</p>
         <p>CATEGORIES</p>
