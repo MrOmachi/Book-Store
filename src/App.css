@@ -29,6 +29,7 @@ body {
 .booksForm {
   width: 85%;
   margin: auto;
+  margin-top: 25px;
 }
 
 .progressContainer {
@@ -66,10 +67,6 @@ body {
   border: none;
   background-color: white;
   cursor: pointer;
-}
-
-.booksForm {
-  margin-top: 25px;
 }
 
 .category {
