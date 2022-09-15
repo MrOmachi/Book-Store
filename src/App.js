@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import DisplayBooks from "./component/DisplayBooks";
 import { BrowserRouter, Route, Routes } from "react-router-dom";

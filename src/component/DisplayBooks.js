@@ -1,5 +1,6 @@
 import React from "react";
 import Book from "./Book";
+import Form from "./Form";
 import NavBar from "./NavBar";
 
 function DisplayBooks() {
@@ -33,6 +34,7 @@ function DisplayBooks() {
           <button className="progressBtn">UPDATE PROGRESS</button>
         </div>
       </div>
+      <Form />
     </div>
   );
 }
