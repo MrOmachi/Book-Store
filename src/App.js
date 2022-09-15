@@ -1,7 +1,7 @@
-import "./App.css";
-import DisplayBooks from "./component/DisplayBooks";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Category from "./component/Category";
+import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import DisplayBooks from './component/DisplayBooks';
+import Category from './component/Category';
 
 function App() {
   return (

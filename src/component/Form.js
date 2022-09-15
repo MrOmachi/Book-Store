@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function Form() {
   return (
@@ -6,7 +6,7 @@ function Form() {
       <form>
         <input type="text" placeholder="Book title" />
         <input type="text" placeholder="Book Author" />
-        <button>ADD BOOK</button>
+        <button type="submit">ADD BOOK</button>
       </form>
     </div>
   );
