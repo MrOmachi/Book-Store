@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+body{
+  background-color: #FAFAFA;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navBar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.BooksDisplay {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  width: 85%;
+  padding: 20px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.progressContainer {
+  display: flex;
+}
+
+.progressParent {
+  width: 5.625rem;
+  height: 5.625rem;
+  padding: 0.63rem 0.625rem 0.75rem 0.75rem;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.progressChild {
+  position: absolute;
+  border-radius: 50%;
+  width: 4.25rem;
+  height: 4.25rem;
+  border: 5px solid #307bbe;
+  border-left-color: #e8e8e8;
+  transform: rotate(45deg);
+}
+
+.progressBtn {
+  background-color: #0290ff;
+  border: none;
   color: white;
+  border-radius: 3px;
+  padding: 15px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
 }
