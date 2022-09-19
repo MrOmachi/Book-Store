@@ -1,5 +1,4 @@
 import { createSlice } from '@reduxjs/toolkit';
-import BooksData from '../Fakedat';
 
 export const bookSlice = createSlice({
   name: 'books',
