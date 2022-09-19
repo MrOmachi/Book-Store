@@ -25,6 +25,7 @@
     "import/no-unresolved": "off",
     "react/destructuring-assignment": "off",
     "no-param-reassign": "off",
+    "no-unused-vars": "off",
     "no-shadow": "off"
   },
   "ignorePatterns": ["dist/", "build/"]
