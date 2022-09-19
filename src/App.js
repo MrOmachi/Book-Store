@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import DisplayBooks from './component/DisplayBooks';
-import Category from './component/Category';
+import DisplayBooks from './redux/books/DisplayBooks';
+import Category from './redux/category/Category';
 
 function App() {
   return (
