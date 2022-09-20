@@ -59,7 +59,6 @@ To get a local copy up and running follow these simple example steps.
 
 > coming soon :smile:
 
-
 ## Authors
 
 👤 _Omachi John_
@@ -82,7 +81,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- etc.
 
 ## 📝 License
 

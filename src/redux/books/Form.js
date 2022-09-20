@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { addBook } from './redux/books/books';
+import { addBook } from './books';
 
 function Form() {
   const bookList = useSelector((state) => state.books.value);

@@ -5,7 +5,7 @@ import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import booksReducer from './component/redux/books/books';
+import booksReducer from './redux/books/books';
 
 const store = configureStore({
   reducer: {

@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Book from './Book';
 import Form from './Form';
 import NavBar from './NavBar';
-import { removeBook } from './redux/books/books';
+import { removeBook } from './books';
 
 function DisplayBooks() {
   const bookList = useSelector((state) => state.books.value);
