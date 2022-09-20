@@ -14,8 +14,7 @@ export const bookSlice = createSlice({
     },
 
     removeBook: (state, action) => {
-      const x = [...state.value];
-      x.filter((book) => book.id !== action.payload.id);
+      state.value = state.value.filter((book) => book.id !== action.payload.id);
     },
   },
 });
