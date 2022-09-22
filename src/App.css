@@ -16,6 +16,15 @@ body {
   align-items: center;
 }
 
+.navList > h1{
+  color: #0290FF;
+}
+
+.navList .link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
 .BooksDisplay {
   display: flex;
   background-color: white;
@@ -73,3 +82,31 @@ body {
   display: flex;
   justify-content: center;
 }
+
+button {
+  color: rgba(3, 25, 146, 0.7);
+}
+
+/* form {
+  width: 80%;
+  margin: auto;
+}
+
+form > input {
+  width: 40%;
+  height: 30px;
+  margin: auto;
+}
+
+form > h1 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+form > button {
+  width: 15%;
+  height: 35px;
+  background-color: #307bbe;
+  border: none;
+  color: white;
+  font-size: 20px;
+} */
