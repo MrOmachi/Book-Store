@@ -20,10 +20,6 @@ function Form() {
       dispatch(asyncAdd(book)).then((response) => {
         e.target.title.value = '';
         e.target.author.value = '';
-        alert.innerHTML = response.payload;
-        setTimeout(() => {
-          alert.innerHTML = '';
-        }, 3000);
       });
     } else {
       alert.innerHTML = 'Please fill Book Title and Author.';

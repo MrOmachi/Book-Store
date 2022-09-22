@@ -16,13 +16,7 @@ function DisplayBooks() {
   const dispatch = useDispatch();
 
   const handleRemove = (book) => {
-    dispatch(asyncRemove(book)).then((response) => {
-      const alert = document.getElementById('alert');
-      alert.innerHTML = response.payload;
-      setTimeout(() => {
-        alert.innerHTML = '';
-      }, 3000);
-    });
+    dispatch(asyncRemove(book)).then((response) => {});
   };
 
   return (
