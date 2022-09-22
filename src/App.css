@@ -92,7 +92,7 @@ form {
   margin: auto;
 }
 
-/* form > input {
+form > input {
   width: 40%;
   height: 30px;
   margin: auto;
@@ -100,7 +100,7 @@ form {
 
 form > h1 {
   color: rgba(0, 0, 0, 0.6);
-} */
+}
 
 form > button {
   width: 15%;
