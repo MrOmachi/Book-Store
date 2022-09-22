@@ -87,12 +87,12 @@ button {
   color: rgba(3, 25, 146, 0.7);
 }
 
-/* form {
+form {
   width: 80%;
   margin: auto;
 }
 
-form > input {
+/* form > input {
   width: 40%;
   height: 30px;
   margin: auto;
