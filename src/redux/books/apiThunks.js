@@ -1,10 +1,12 @@
-import { createAsyncThunk } from "@reduxjs/toolkit";
+import { createAsyncThunk } from '@reduxjs/toolkit';
 import {
   addBookToAPI,
   getStateFromAPI,
   removeBookFromAPI,
-} from "../../component/api/actioApi";
-import { GET, ASYNC_ADD, ASYNC_REMOVE, addBook, removeBook } from "./apiBooks";
+} from '../../component/api/actioApi';
+import {
+  GET, ASYNC_ADD, ASYNC_REMOVE, addBook, removeBook,
+} from './apiBooks';
 
 const asyncAdd = createAsyncThunk(ASYNC_ADD, async (book, { dispatch }) => {
   const answer = await addBookToAPI(book);
@@ -18,7 +20,7 @@ const asyncRemove = createAsyncThunk(
     const answer = await removeBookFromAPI(book);
     dispatch(removeBook(book));
     return answer;
-  }
+  },
 );
 
 const asyncGet = createAsyncThunk(GET, async () => {

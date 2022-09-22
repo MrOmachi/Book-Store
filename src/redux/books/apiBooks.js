@@ -1,9 +1,9 @@
-const ADD = "bookstore/books/ADD";
-const REMOVE = "bookstore/books/REMOVE";
-const UPDATE = "bookstore/books/UPDATE";
-const GET = "bookstore/books/GET";
-const ASYNC_ADD = "bookstore/books/ASYNC_ADD";
-const ASYNC_REMOVE = "bookstore/books/ASYNC_REMOVE";
+const ADD = 'bookstore/books/ADD';
+const REMOVE = 'bookstore/books/REMOVE';
+const UPDATE = 'bookstore/books/UPDATE';
+const GET = 'bookstore/books/GET';
+const ASYNC_ADD = 'bookstore/books/ASYNC_ADD';
+const ASYNC_REMOVE = 'bookstore/books/ASYNC_REMOVE';
 
 const addBook = (book) => ({
   type: ADD,
@@ -43,5 +43,7 @@ const bookReducer = (state = [], action = {}) => {
   }
 };
 
-export { addBook, updateBook, removeBook, GET, ASYNC_ADD, ASYNC_REMOVE };
+export {
+  addBook, updateBook, removeBook, GET, ASYNC_ADD, ASYNC_REMOVE,
+};
 export default bookReducer;

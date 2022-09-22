@@ -1,11 +1,11 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 export const bookSlice = createSlice({
-  name: "books",
+  name: 'books',
   initialState: {
     value: [
-      { id: 1, author: "By authot one", title: "Book one" },
-      { id: 2, author: "By authot two", title: "Book two" },
+      { id: 1, author: 'By authot one', title: 'Book one' },
+      { id: 2, author: 'By authot two', title: 'Book two' },
     ],
   },
   reducers: {
