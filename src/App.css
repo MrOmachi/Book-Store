@@ -16,10 +16,6 @@ body {
   align-items: center;
 }
 
-.navList > h1{
-  color: #0290FF;
-}
-
 .navList .link {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.6);
@@ -100,6 +96,10 @@ form > input {
 
 form > h1 {
   color: rgba(0, 0, 0, 0.6);
+}
+
+.navList > h1 {
+  color: #0290ff;
 }
 
 form > button {
