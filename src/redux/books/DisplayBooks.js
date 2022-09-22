@@ -1,19 +1,35 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { asyncRemove } from './apiThunks';
+
 import Book from './Book';
-import Form from './Form';
+// import Form from './Form';
 import NavBar from './NavBar';
-import { removeBook } from './books';
+import Form from './apiform';
+// import { removeBook } from "./books";
 
 function DisplayBooks() {
-  const bookList = useSelector((state) => state.books.value);
+  // const bookList = useSelector((state) => state.books.value);
+  // const dispatch = useDispatch();
+
+  const books = useSelector((state) => state.books);
   const dispatch = useDispatch();
+
+  const handleRemove = (book) => {
+    dispatch(asyncRemove(book)).then((response) => {
+      const alert = document.getElementById('alert');
+      alert.innerHTML = response.payload;
+      setTimeout(() => {
+        alert.innerHTML = '';
+      }, 3000);
+    });
+  };
 
   return (
     <div className="bookDsipalyContainer">
       <NavBar />
 
-      {bookList.map((book) => (
+      {books.map((book) => (
         <div className="BooksDisplay" key={book.id}>
           <div className="authorsTitle">
             <h2>Action</h2>
@@ -23,9 +39,7 @@ function DisplayBooks() {
                 Comments
               </button>
               <button
-                onClick={() => {
-                  dispatch(removeBook({ id: book.id }));
-                }}
+                onClick={() => handleRemove(book)}
                 type="button"
                 className="btn"
               >
