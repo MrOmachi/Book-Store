@@ -10,6 +10,12 @@ body {
   align-items: center;
 }
 
+.profile{
+  margin-right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
 .navList {
   display: flex;
   gap: 20px;

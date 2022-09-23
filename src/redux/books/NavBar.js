@@ -13,7 +13,7 @@ function NavBar() {
           <Link className="link" to="/Category"> CATEGORIES </Link>
         </p>
       </div>
-      <div className="profile">Profile Image</div>
+      <div className="profile">👤</div>
     </div>
   );
 }
