@@ -56,8 +56,8 @@ function DisplayBooks() {
           </div>
 
           <div className="chapter">
-            <h2>CURRENT CHAPTER</h2>
-            <p>Chapter 17</p>
+            <h2 className="h2">CURRENT CHAPTER</h2>
+            <p className="par">Chapter 17</p>
             <button type="submit" className="progressBtn">
               UPDATE PROGRESS
             </button>

@@ -38,6 +38,23 @@ body {
   font-family: "Roboto Slab",serif;
 }
 
+.chapter .h2 {
+  font-family: "Roboto Slab",serif;
+    font-weight: 300;
+    color: #121212;
+    font-size: 0.813rem;
+    color: #121212;
+}
+
+.chapter .par {
+  margin-top: 0.438rem;
+  font-size: 1rem;
+  letter-spacing: -.4px;
+  font-family: "Roboto Slab",serif;
+    font-weight: 300;
+    color: #121212;
+}
+
 .booksForm {
   width: 85%;
   margin: auto;
