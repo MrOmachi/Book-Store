@@ -31,6 +31,13 @@ body {
   margin: auto;
 }
 
+.bookAuthor {
+  font-size: .875rem;
+  font-weight: 300;
+  color: #4386bf;
+  font-family: "Roboto Slab",serif;
+}
+
 .booksForm {
   width: 85%;
   margin: auto;
