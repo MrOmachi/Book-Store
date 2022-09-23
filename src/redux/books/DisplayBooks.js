@@ -26,7 +26,7 @@ function DisplayBooks() {
       {books.map((book) => (
         <div className="BooksDisplay" key={book.id}>
           <div className="authorsTitle">
-            <h2>Action</h2>
+            <h2 className="actiontype">Action</h2>
             <Book title={book.title} author={book.author} />
             <div className="btns">
               <button type="submit" className="btn">
