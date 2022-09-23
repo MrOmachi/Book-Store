@@ -38,6 +38,19 @@ body {
   font-family: "Roboto Slab",serif;
 }
 
+.progressStat .h2{
+  font-family: "Montserrat",sans-serif;
+    color: #121212;
+    font-size: 2rem;
+}
+
+.progressStat .par{
+  font-size: .875rem;
+  opacity: .5;
+  font-family: "Montserrat",sans-serif;
+  color: #121212;
+}
+
 .chapter .h2 {
   font-family: "Roboto Slab",serif;
     font-weight: 300;

@@ -50,8 +50,8 @@ function DisplayBooks() {
               <div className="progressChild" />
             </div>
             <div className="progressStat">
-              <h2>60%</h2>
-              <p>completed</p>
+              <h2 className="h2">60%</h2>
+              <p className="par">completed</p>
             </div>
           </div>
 
