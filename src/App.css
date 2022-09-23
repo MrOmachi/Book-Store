@@ -146,9 +146,9 @@ form {
 }
 
 form > input {
-  width: 40%;
+  width: 39%;
   height: 30px;
-  margin: auto;
+  margin: 10px;
 }
 
 form > h1 {
@@ -160,7 +160,7 @@ form > h1 {
 }
 
 form > button {
-  width: 15%;
+  width: 14%;
   height: 35px;
   background-color: #307bbe;
   border: none;
