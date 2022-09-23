@@ -10,7 +10,7 @@ body {
   align-items: center;
 }
 
-.profile{
+.profile {
   margin-right: 20px;
   font-size: 30px;
   cursor: pointer;
@@ -32,8 +32,6 @@ body {
   background-color: white;
   justify-content: space-between;
   width: 85%;
-  padding: 20px;
-  border-radius: 5px;
   margin: 10px auto;
   border-radius: 4px;
   border: 1px solid #e8e8e8;
@@ -41,57 +39,56 @@ body {
 }
 
 .bookAuthor {
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 300;
   color: #4386bf;
-  font-family: "Roboto Slab",serif;
+  font-family: "Roboto Slab", serif;
 }
 
-.actiontype{
-  font-family: "Montserrat",sans-serif;
-    font-size: .875rem;
-    opacity: .5;
-    font-weight: 700;
-    color: #121212;
+.actiontype {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  opacity: 0.5;
+  font-weight: 700;
+  color: #121212;
 }
 
 .bookTitle {
   margin-top: 0.188rem;
   font-size: 1.375rem;
-  letter-spacing: -.2px;
+  letter-spacing: -0.2px;
   font-weight: 700;
   color: #121212;
-  font-family: "Roboto Slab",serif;
+  font-family: "Roboto Slab", serif;
 }
 
-.progressStat .h2{
-  font-family: "Montserrat",sans-serif;
-    color: #121212;
-    font-size: 2rem;
+.progressStat .h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #121212;
+  font-size: 2rem;
 }
 
-.progressStat .par{
-  font-size: .875rem;
-  opacity: .5;
-  font-family: "Montserrat",sans-serif;
+.progressStat .par {
+  font-size: 0.875rem;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
   color: #121212;
 }
 
 .chapter .h2 {
-  font-family: "Roboto Slab",serif;
-    font-weight: 300;
-    color: #121212;
-    font-size: 0.813rem;
-    color: #121212;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 0.813rem;
+  color: #121212;
 }
 
 .chapter .par {
   margin-top: 0.438rem;
   font-size: 1rem;
-  letter-spacing: -.4px;
-  font-family: "Roboto Slab",serif;
-    font-weight: 300;
-    color: #121212;
+  letter-spacing: -0.4px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  color: #121212;
 }
 
 .booksForm {
