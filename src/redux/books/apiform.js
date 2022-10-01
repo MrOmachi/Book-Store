@@ -31,8 +31,8 @@ function Form() {
 
   return (
     <div className="form-container">
-      <h6 className="form-title"> ADD NEW BOOK </h6>
       <form className="form" id="add-book" onSubmit={handleSubmit}>
+        <h1 className="form-title"> ADD NEW BOOK </h1>
         <input
           type="text"
           placeholder="Title"

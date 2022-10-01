@@ -6,7 +6,7 @@ function Category() {
     <div>
       <NavBar />
       <div className="category">
-        <button type="submit">Show Status</button>
+        <h1>Under Construction</h1>
       </div>
     </div>
   );
