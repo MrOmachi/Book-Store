@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[Coming soon](https://livedemo.com)
+[Link](https://grand-druid-30c8d4.netlify.app/)
 
 ## Getting Started
 
