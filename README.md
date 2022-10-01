@@ -10,7 +10,7 @@
 - ReactJs,
 - Git, GitHub, Git workflow
 
-## Live Demo (if available)
+## Live Demo
 
 [Link](https://grand-druid-30c8d4.netlify.app/)
 
